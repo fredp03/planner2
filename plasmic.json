@@ -1,0 +1,92 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "i4zHC9fkSk2pt4DoEJTVq6",
+      "projectApiToken": "hGQ5AH27jkHsUJbMvAmOFYyOXph5ubdC6CPhMNINU7dDjZBfLA2sWhcb3Eilec75ibluOyNeepiA874tCfQ",
+      "projectName": "planner 3",
+      "version": "latest",
+      "cssFilePath": "plasmic/planner_3/plasmic_planner_3.module.css",
+      "components": [
+        {
+          "id": "Ob962zSjPJGd",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "i4zHC9fkSk2pt4DoEJTVq6",
+          "renderModuleFilePath": "plasmic/planner_3/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/planner_3/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "cxUeFhSOBp",
+          "name": "ToDo",
+          "type": "managed",
+          "projectId": "i4zHC9fkSk2pt4DoEJTVq6",
+          "renderModuleFilePath": "plasmic/planner_3/PlasmicToDo.jsx",
+          "importSpec": {
+            "modulePath": "ToDo.jsx"
+          },
+          "cssFilePath": "plasmic/planner_3/PlasmicToDo.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "nGkSkqZDcCLTY",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "pkHv6tZ-8iyVp",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "Ul4cerfXA9",
+        "name": "ToDo",
+        "projectId": "i4zHC9fkSk2pt4DoEJTVq6",
+        "contextFilePath": "plasmic/planner_3/PlasmicGlobalVariant__ToDo.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.284",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.284/dist/plasmic.schema.json"
+}

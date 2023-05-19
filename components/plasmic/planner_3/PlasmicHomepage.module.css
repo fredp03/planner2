@@ -1,0 +1,103 @@
+.root {
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  justify-items: center;
+  background: #636363;
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    1fr minmax(0, var(--plsmc-wide-chunk)) var(--plsmc-viewport-gap)
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    var(--plsmc-viewport-gap) minmax(0, var(--plsmc-wide-chunk)) 1fr;
+  padding: 0px;
+}
+:where(.root > *) {
+  grid-column: 4;
+}
+.freeBox__rReCe {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: 1023px;
+  max-width: 100%;
+  margin-top: 0px;
+  justify-self: center;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  padding: 0px 8px 8px 0px;
+}
+.freeBox__g3Jb6 {
+  display: block;
+  position: relative;
+  width: 177px;
+  height: 1025px;
+  max-width: 100%;
+  background: #3c3c3c;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.eventSliders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  align-self: stretch;
+  margin-top: 135px;
+  padding: 8px 8px 8px 112px;
+}
+.toDo__s6Uep:global(.__wab_instance) {
+  position: relative;
+  margin-top: 21px;
+  flex-shrink: 0;
+}
+.toDo___7Uqq7:global(.__wab_instance) {
+  position: relative;
+  margin-top: 21px;
+  flex-shrink: 0;
+}
+.toDo__iaNk1:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  margin-top: 21px;
+  flex-shrink: 0;
+}
+.toDo___2R1S:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  margin-top: 21px;
+  flex-shrink: 0;
+}
+.toDo__k5B4C:global(.__wab_instance) {
+  position: relative;
+  margin-top: 21px;
+  flex-shrink: 0;
+}
+.toDo___6NrT9:global(.__wab_instance) {
+  position: relative;
+  margin-top: 21px;
+  flex-shrink: 0;
+}
+.toDo__k3TJh:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  margin-top: 21px;
+  flex-shrink: 0;
+}
+.toDo__zn3O7:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  margin-top: 21px;
+  flex-shrink: 0;
+}
